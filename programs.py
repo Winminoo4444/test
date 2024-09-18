@@ -31,3 +31,4 @@ def is_even(number):
     else:
         return False
 print("hello world lmao")
+print("u suck")
