@@ -1,0 +1,26 @@
+Quick Questions
+1.length, price
+2.product_num, length2
+3.1product, product price
+4.should always start with small letter or underscore
+5.when a literal is used more than once, it is constant. eg. INTEREST_RATE=0.10
+6.use uppercase letters
+
+Logic Exercise
+The answer is 3
+
+Reflection
+1.My career goal is to be a graphic designer or manga artist. In 5 years from now, I might change my mind and switch to another career  because I am kind of a indecisive person.
+2.I think programming would be a huge help in the process of achieving my goals.
+3.I might need to manage my own time and learn to be organized with my lifestyle.
+
+get original_price and surcharge_rate
+extra_charge = original_price * surcharge_rate
+total_price = original_price + extra_charge
+display total_price
+
+original_price = float(input("Original price: $"))
+surcharge_rate = float(input("Surcharge % (e.g. 0.15 is 15%): "))
+extra_charge = original_price * surcharge_rate
+total_price = original_price + extra_charge
+print("The total meal price is $", total_price, sep="")
